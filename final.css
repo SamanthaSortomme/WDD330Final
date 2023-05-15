@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Merriweather&family=Poppins&display=swap');
+
+/*card grid container */
+#cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 500px));
+    /* grid-template-columns: repeat(3, minmax(250px, 500px)); */
+    align-items: center;
+}
+
+.card {
+    outline: solid 5px #050505;
+    border: solid 5px #050505;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(207, 207, 238); */
+    /* width: 100%;
+    height: auto; */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(37, 191, 230), rgb(6, 62, 88), rgb(37, 191, 230));
+}
+
+.card img {
+    width: 95%;
+    height: auto;
+    border-radius: 4%;
+}
+
+/* ============================================================= */
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Drop down menu*/
+#colorSel {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #3c84e2;
+    border-radius: 4px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    cursor: url(mtgCurser.jpg), auto;
+
+}
+
+#colorSel option {
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    /* border-bottom: 1px solid black; */
+}
+
+#colorSel:hover {
+    background-color: #c8cee4;
+}
+
+#colorSel:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    /* margin-right: 20px; */
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #043a74;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 10px 10px 2px 1px #74a6db;
+}
+
+#nextCard {
+    float: right;
+}
+
+button:hover {
+    background-color: #74a6db;
+    padding: 12px 24px;
+    font-size: 1.2em;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+#colorSel option:nth-child(1) {
+    color: red;
+}
+
+#colorSel option:nth-child(2) {
+    color: rgb(172, 164, 164);
+}
+
+#colorSel option:nth-child(3) {
+    color: blue;
+}
+
+#colorSel option:nth-child(4) {
+    color: green;
+}
+
+#colorSel option:nth-child(5) {
+    color: black;
+}
+
+#colorSel option:nth-child(6) {
+    color: lightblue;
+}
+
+#colorSel option:nth-child(7) {
+    color: orange;
+}
+
+#colorSel option:nth-child(8) {
+    color: purple;
+}
+
+#colorSel option:nth-child(9) {
+    color: darkgreen;
+}
+
+#colorSel option:nth-child(10) {
+    color: yellow;
+}
+
+#colorSel option:nth-child(11) {
+    color: skyblue;
+}
+
+#colorSel option:nth-child(12) {
+    color: pink;
+}
+
+#colorSel option:nth-child(13) {
+    color: darkred;
+}
+
+#colorSel option:nth-child(14) {
+    color: lightgreen;
+}
+
+#colorSel option:nth-child(15) {
+    color: teal;
+}
+
+#colorSel option:nth-child(16) {
+    color: coral;
+}
+
+/* @keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(3);
+    }
+} */
