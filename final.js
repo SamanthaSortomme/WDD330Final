@@ -1,10 +1,13 @@
-let color = 'red';
-
 const cardGrid = document.getElementById('cardGrid');
-
 let selected_card_index = 0;
-
 const backButton = document.getElementById('lastCard');
+
+if(localStorage.getItem('localColor') == null)
+  window.localStorage.setItem('localColor' , 'red')
+color = localStorage.getItem('localColor')
+
+
+
 console.log(selected_card_index);
 if (selected_card_index !== 0) {
   backButton.disabled = false;
@@ -54,10 +57,11 @@ function loadCards(color) {
     })
     .catch((error) => console.log(error));
 }
-loadCards('red');
+loadCards(localStorage.getItem('localColor'));
 
 document.getElementById('colorSel').addEventListener('change', () => {
   color = document.getElementById('colorSel').value;
+  localStorage.setItem('localColor' , color)
   selected_card_index = 0;
   cardGrid.innerHTML = '';
   loadCards(color);

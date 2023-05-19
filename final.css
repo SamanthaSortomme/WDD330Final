@@ -107,67 +107,67 @@ button:active {
     transform: translateY(2px);
 }
 
-#colorSel option:nth-child(1) {
+#colorSel option:nth-child(2) {
     color: red;
 }
 
-#colorSel option:nth-child(2) {
+#colorSel option:nth-child(3) {
     color: rgb(172, 164, 164);
 }
 
-#colorSel option:nth-child(3) {
+#colorSel option:nth-child(4) {
     color: blue;
 }
 
-#colorSel option:nth-child(4) {
+#colorSel option:nth-child(5) {
     color: green;
 }
 
-#colorSel option:nth-child(5) {
+#colorSel option:nth-child(6) {
     color: black;
 }
 
-#colorSel option:nth-child(6) {
+#colorSel option:nth-child(7) {
     color: lightblue;
 }
 
-#colorSel option:nth-child(7) {
+#colorSel option:nth-child(8) {
     color: orange;
 }
 
-#colorSel option:nth-child(8) {
+#colorSel option:nth-child(9) {
     color: purple;
 }
 
-#colorSel option:nth-child(9) {
+#colorSel option:nth-child(10) {
     color: darkgreen;
 }
 
-#colorSel option:nth-child(10) {
+#colorSel option:nth-child(11) {
     color: yellow;
 }
 
-#colorSel option:nth-child(11) {
+#colorSel option:nth-child(12) {
     color: skyblue;
 }
 
-#colorSel option:nth-child(12) {
+#colorSel option:nth-child(13) {
     color: pink;
 }
 
-#colorSel option:nth-child(13) {
+#colorSel option:nth-child(14) {
     color: darkred;
 }
 
-#colorSel option:nth-child(14) {
+#colorSel option:nth-child(15) {
     color: lightgreen;
 }
 
-#colorSel option:nth-child(15) {
+#colorSel option:nth-child(16) {
     color: teal;
 }
 
-#colorSel option:nth-child(16) {
+#colorSel option:nth-child(17) {
     color: coral;
 }
 
