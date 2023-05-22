@@ -16,7 +16,6 @@ if (selected_card_index !== 0) {
 }
 
 const card1 = document.createElement('img');
-// cardGrid.appendChild(card1);
 
 
 function loadCards(color) {
@@ -31,7 +30,7 @@ function loadCards(color) {
         cardInfo.className = 'card';
         let name = document.createElement('h1');
         let cardImg = document.createElement('img');
-        
+
         let setName = document.createElement('h2');
         setName.className = 'setName-text';
 
