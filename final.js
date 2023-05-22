@@ -1,11 +1,16 @@
 const cardGrid = document.getElementById('cardGrid');
 let selected_card_index = 0;
 const backButton = document.getElementById('lastCard');
+const selectedColor = localStorage.getItem('localColor');
+
 
 if(localStorage.getItem('localColor') == null)
   window.localStorage.setItem('localColor' , 'red')
 color = localStorage.getItem('localColor')
 
+document.getElementById('colorSel').value = selectedColor;
+document.getElementById('colorSel').addEventListener('change', () => {
+});
 
 
 console.log(selected_card_index);
